@@ -211,4 +211,46 @@ li.nav-link a {
   bottom: 375px;
   margin-left: 300px;
 }
-    
+
+/* Tercer Contenedor */
+
+.text1-3{
+  font-weight: bold;
+  color: #ff702a;
+  margin-top: 200px;
+  margin-left: 900px;
+  font-size: 20px;
+}
+
+.text2-3{
+  font-weight: bold;
+  font-size: 60px;
+  color: #ffffff;
+  margin-left: 550px;
+}
+  /* Primer cuadrado */
+.cuadrado {
+  width: 500px;
+  height: 500px;
+  background-color:#fffcf7;
+  border: 2px rgb(119, 119, 119);
+  border-radius: 10px;
+  margin: auto;
+  margin-left: 500px;
+  position: relative;
+}
+
+.MiniText1 {
+  text-align: center;
+  padding-top: 900px;
+}
+
+.MiniText2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.MiniText3 {
+  text-align: center;
+  padding-top: 10px;
+}
