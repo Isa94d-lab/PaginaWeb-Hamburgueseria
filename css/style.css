@@ -99,7 +99,7 @@ li.nav-link a {
 
 .container1 {
     position: relative;
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -230,27 +230,39 @@ li.nav-link a {
 }
   /* Primer cuadrado */
 .cuadrado {
-  width: 500px;
-  height: 500px;
-  background-color:#fffcf7;
+  width: 400px;
+  height: 400x;
+  background-color: #ffefe8;
   border: 2px rgb(119, 119, 119);
   border-radius: 10px;
   margin: auto;
-  margin-left: 500px;
+  margin-left: 300px;
   position: relative;
+  margin-top: 50px;
 }
 
 .MiniText1 {
   text-align: center;
-  padding-top: 900px;
+  padding-top: 300px;
+  font-size: 30px;
 }
 
 .MiniText2 {
   text-align: center;
-  padding-top: 10px;
+  font-size: 15px;
+ 
 }
 
 .MiniText3 {
   text-align: center;
-  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ff702a;
+
+}
+
+.imagen3 {
+  position: relative;
+  bottom: 375px;
+  margin-left: 350px;
+
 }
