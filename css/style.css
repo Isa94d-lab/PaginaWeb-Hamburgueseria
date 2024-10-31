@@ -37,7 +37,7 @@ nav h2.logo {
   font-weight: bold;
   font-size: xx-large;
   color: #ff702a;
-  margin-left: 40px;
+  margin-left: 70px;
 }
 
 nav .bars {
@@ -108,7 +108,7 @@ li.nav-link a {
     font-size: xx-large;
     color: #ff702a;
     margin-top: 200px;
-    margin-left: 170px;
+    margin-left: 180px;
     font-size: 70px;
 }
 
@@ -116,10 +116,10 @@ li.nav-link a {
     font-weight: bold;
     font-size: 30px;
     color: #ffffff;
-    margin-left: 170px;
+    margin-left: 180px;
 }
 
-.text3 a:link, a:visited{
+.botton a:link, a:visited{
     background-color: #ff702a;
     color: white;
     padding: 10px 20px;
@@ -129,17 +129,17 @@ li.nav-link a {
     border: 2px rgb(119, 119, 119);
     border-radius: 10px;
     margin: auto;
-    margin-left: 170px;
+    margin-left: 180px;
     margin-top: 10px;
 }
 
-.text3 a:hover{
+.botton a:hover{
     color:rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: underline;
 }
 
-.text3 a:hover, a:active {
+.botton a:hover, a:active {
     color:rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
 }
@@ -150,3 +150,65 @@ li.nav-link a {
     margin-left: 850px;
 
 }
+
+.container2 {
+  position: relative;
+  width: 100vh;
+  height: 100vh;
+}
+.text1-2 {
+  font-weight: bold;
+  color: #ff702a;
+  margin-top: 200px;
+  margin-left: 1000px;
+  font-size: 20px;
+}
+
+.text2-2 {
+  font-weight: bold;
+  font-size: 60px;
+  color: #ffffff;
+  margin-left: 1000px;
+
+}
+
+.text3-2{
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 1000px;
+}
+
+.botton2 a:link, a:visited{
+  background-color: #ff702a;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px rgb(119, 119, 119);
+  border-radius: 10px;
+  margin: auto;
+  margin-left: 1000px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.botton2 a:hover{
+  color:rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.botton2 a:hover, a:active {
+  color:rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+
+.imagen2{
+  position: relative;
+  bottom: 375px;
+  margin-left: 300px;
+}
+    
