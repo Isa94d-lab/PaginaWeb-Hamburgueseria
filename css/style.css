@@ -154,15 +154,15 @@ li.nav-link a {
 .container2 {
   position: relative;
   width: 100vh;
-  height: 100vh;
-  padding-top: 40px;
+  height: 80vh;
 }
+
 .text1-2 {
   font-weight: bold;
   color: #ff702a;
-  margin-top: 200px;
   margin-left: 1000px;
   font-size: 20px;
+  padding-top: 200px;
 }
 
 .text2-2 {
@@ -221,6 +221,7 @@ li.nav-link a {
   margin-top: 200px;
   margin-left: 900px;
   font-size: 20px;
+  padding-top: 130px;
 }
 
 .text2-3{
@@ -320,6 +321,7 @@ li.nav-link a {
   margin-top: 500px;
   margin-left: 900px;
   font-size: 20px;
+  padding-top: 50px;
 }
 
 .text2-4{
@@ -397,4 +399,8 @@ li.nav-link a {
 .botton3 a:hover, a:active {
   color:rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
+}
+
+html {
+  scroll-behavior: smooth;
 }
