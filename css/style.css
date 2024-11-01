@@ -236,14 +236,13 @@ li.nav-link a {
   border: 2px rgb(119, 119, 119);
   border-radius: 10px;
   margin: auto;
-  margin-left: 300px;
+  /* margin-left: 100px;*/
   position: relative;
   margin-top: 50px;
 }
 
 .MiniText1 {
-  text-align: center;
-  padding-top: 300px;
+  text-align: center; 
   font-size: 30px;
 }
 
@@ -255,14 +254,54 @@ li.nav-link a {
 
 .MiniText3 {
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   color: #ff702a;
 
 }
 
 .imagen3 {
   position: relative;
-  bottom: 375px;
-  margin-left: 350px;
+  text-align: center;
+}
 
+  /* Segundo cuadrado */
+
+  /*
+.cuadrado-2{
+  margin-left: 760px ;
+  bottom: 467px;
+}
+  */
+
+.imagen4 {
+  position: relative;
+  text-align: center;
+}
+ /* Tercer cuadrado */
+
+ /*
+.cuadrado-3{
+  margin-left: 1220px ;
+  bottom: 933px;
+}
+  */
+
+.imagen5 {
+  position: relative;
+  text-align: center;
+}
+
+.cuadrado{
+  display: inline-block;
+}
+
+.cuadrado-1 {
+  margin-left: 350px;
+  margin-right: 15px;
+}
+.cuadrado-2{
+  margin-right: 15px;
+}
+.cuadrado-3{
+  margin-right: 15px;
 }
