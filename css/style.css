@@ -305,3 +305,48 @@ li.nav-link a {
 .cuadrado-3{
   margin-right: 15px;
 }
+
+/* CUARTO CONTENEDOR */
+
+.espacio {
+  display: inline-block;
+  text-align: center;
+}
+
+.text1-4{
+  font-weight: bold;
+  color: #ff702a;
+  margin-top: 500px;
+  margin-left: 900px;
+  font-size: 20px;
+}
+
+.text2-4{
+  font-weight: bold;
+  font-size: 60px;
+  color: #ffffff;
+  margin-left: 460px;
+}
+
+.ServiceText1 {
+  font-weight: bold;
+  color: #ff702a;
+  font-size: 30px;
+  text-align: center;
+}
+.ServiceText2 {
+  font-weight: bold;
+  font-size: 23px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.espacio-1{
+  margin-left: 100px;
+  margin-right: 90px;
+}
+
+.espacio-3{
+  margin-left: 90px;
+}
+
