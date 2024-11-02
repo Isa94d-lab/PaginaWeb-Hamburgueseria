@@ -1,3 +1,4 @@
+<!-- Iniciamos -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,31 +14,37 @@
   <div class="bars">
     <i class="fa fa-bars"></i>
   </div>
+  <!-- Esto nos permitira que cuando el usuario haga click en uno de botones los lleve a una parte especifica de la pagina -->
   <ul class="nav-links">
     <li class="nav-link"><a href="#conteiner1">Home</a></li>
     <li class="nav-link"><a href="#conteiner2">About</a></li>
     <li class="nav-link"><a href="#conteiner3">Menu</a></li>
     <li class="nav-link"><a href="#conteiner4">Service</a></li>
+    <li class="nav-link"><a href="#conteiner5">Contact</a></li>
   </ul>
 </nav>
 
+<!-- Este id nos permite hacer el salto de espacio para ir a la parte especifica de la pagina y asi con todos los que se muestran en el resto de la pagina-->
 <div id="conteiner1"></div>
+<!-- Creamos un contenedor que ademas de guardar la parte que queremos de la pagina ahi -->
   <div class="conteiner1">
       <p class="text1">Full Website</p>
       <p class="text2">
           Food the<br>
           Most precious thing<br>
       </p>
+      <!-- Esto esta relacionado con los botones que mencione anteriormente (para enlazarlos )-->
       <p class="botton"><a href="#">Today's Menu</a></p>
+      <!-- Esto nos permite traer imagener la pagina web -->
       <p class="imagen1"><img src="images/home.png"></p>
   </div>
 </div>
 
 
-
 <div id="conteiner2">
   <div class="conteiner2">
     <p class="text1-2">About Us </p>
+    <!-- Uso el <p> es usado para añadir texto -->
     <p class="text2-2">
       We speak the good <br>
       food language
@@ -60,6 +67,7 @@
 
     <div class="intento">
       <div class="cuadrado cuadrado-1">
+        
         <p class="imagen3"><img src="images/food1.png"></p>
         <p class="MiniText1">Chiken Burger</p>
         <p class="MiniText2">Tasty Food</p>
@@ -131,6 +139,58 @@
       
     </div>
   </div>
+</div>
+
+<div id="conteiner6">
+  <div class="conteiner6">
+    <!-- Creo una tabla para asi guardar toda la informacion que quiero mostrar, de manera ordenada -->
+    <table>
+      <!-- Cada tr, simbolisa una lista -->
+      <tr class="Titulos">
+        <!-- Cada th significa los espacios, por ejemplo: en un espacio ira Menu Links, cierro el <th> y se cierra ese espacio, luego se crea otro y asi-->
+        <th class="lol"> Menu Links </th>
+        <th class="lol"> Our Service </th>
+        <th class="lol"> Information </th>
+        <th class="lol"> Contact Us </th>
+      </tr>
+
+      <tr class="intermedio">
+        <th>----- </th>
+        <th>----- </th> 
+        <th>----- </th>
+        <th>----- </th>
+      </tr>
+
+      <tr class="text1-6">
+        <th> Home </th>
+        <th> Web Design </th>
+        <th> About Us </th>
+      </tr>
+
+      <tr class="text1-6">
+        <th> About </th>
+        <th> Web Development </th>
+        <th> Delivery Information </th>
+      </tr>
+
+      <tr class="text1-6">
+        <th> Menu </th>
+        <th> Marketing </th>
+        <th> Privacy Policy </th>
+      </tr>
+
+      <tr class="text1-6">
+        <th> Service </th>
+        <th> Product Management </th>
+        <th> Terms and Conditions </th>
+      </tr>
+
+      <tr class="text1-6">
+        <th> Contact </th>
+        <th> Graphic Design </th>
+      </tr>
+    </table>
+  </div>  
 </div>
 
 </body>
