@@ -33,9 +33,9 @@ Al momento de renderizar el codigo HTML desde el archivo "index.html" se mostrar
 - Git: Necesitaras Git para clonar el repositorio. Descargalo desde [git](https://git-scm.com/) 
 - Un editor de texto como VSCode o cualquier otro de tu preferencia 
   
-2. Codigos en la terminal del editor de texto para instalar el proyecto
-- git clone https://github.com/Isa94d-lab/Pagina-de-Eventos.git
-- cd Pagina-de-Eventos
+2. Codigos en la terminal del editor de texto para instalar el proyecto  
+- git clone https://github.com/Isa94d-lab/PaginaWeb-Hamburgueseria.git
+- cd PaginaWeb-Hamburgueseria
 
 3. Ejecutar el codigo desde el archivo *"index.html"*
 
