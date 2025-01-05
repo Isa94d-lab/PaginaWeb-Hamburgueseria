@@ -24,6 +24,24 @@
   </ul>
 </nav>
 
+<div class="bars">☰</div>
+  
+  <!-- Menú desplegable -->
+  <nav>
+    <ul>
+    </ul>
+  </nav>
+  
+  <!-- JavaScript para activar el menú -->
+  <script>
+    const bars = document.querySelector(".bars");
+    const nav = document.querySelector("nav");
+
+    bars.onclick = () => {
+      nav.classList.toggle("active");
+    };
+  </script>
+
 <!-- Este id nos permite hacer el salto de espacio para ir a la parte especifica de la pagina y asi con todos los que se muestran en el resto de la pagina-->
 <div id="conteiner1"></div>
 <!-- Creamos un contenedor que ademas de guardar la parte que queremos de la pagina ahi -->
@@ -147,7 +165,7 @@
     <table>
       <!-- Cada tr, simbolisa una lista -->
       <tr class="Titulos">
-        <!-- Cada th significa los espacios, por ejemplo: en un espacio ira Menu Links, cierro el <th> y se cierra ese espacio, luego se crea otro y asi-->
+        <!-- Cada th significa los espacios, por ejemplo: en un espacio ira Menu Links, cierro el <th> y se cierra ese espacio, luego se crea otro y asi concecuentemente -->
         <th class="lol"> Menu Links </th>
         <th class="lol"> Our Service </th>
         <th class="lol"> Information </th>

@@ -46,6 +46,7 @@ nav .bars {
   right: 1rem;
   font-size: xx-large;
   display: none;
+  cursor: pointer;
 }
 
 ul.nav-links {
@@ -64,6 +65,7 @@ li.nav-link {
   list-style: none;
   margin: 0.5rem 1rem;
   padding: 0.4rem;
+  border: solid transparent 1px;
   display: flex;
   align-items: center;
 }
